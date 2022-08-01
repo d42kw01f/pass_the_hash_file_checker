@@ -6,10 +6,10 @@ while test $# -gt 0; do
       echo "usage: $package [-h] [-dc-ip DOMAIN IP] [-p PROTOCOL] {mssql,winrm,ssh,ldap,smb} -f [HASH FILE]"
       echo " "
       echo "options:"
-      echo "-h, --help                show brief help"
+      echo "-h                        show brief help"
       echo "-dc-ip                    domain ip"
-      echo "-p --protocol             protocol that is testing (crackmapexec protocols)"
-      echo "-f, --hashfile=DIR        file that includes hashes with usernames"
+      echo "-p                        protocol that is testing (crackmapexec protocols)"
+      echo "-f                        file that includes hashes with usernames"
       exit 0
       ;;
     -dc-ip)

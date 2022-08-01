@@ -15,7 +15,7 @@ usage: ./passthehashes.sh [-h] [-dc-ip DOMAIN IP] [-p PROTOCOL] {mssql,winrm,ssh
 hashtest.sh -dc-ip 192.168.94.175 -p smb -f hashes.out
 ```
 
-## sample hashefile
+## sample `hashes.out` file
 ```
 Guest:501:aad3b435b51404eeaad3b435b51404ee:31d6cfe0d16ae931b73c59d7e0c089c0:::
 RESOURCEDC$:1000:aad3b435b51404eeaad3b435b51404ee:9ddb6f4d9d01fedeb4bccfb09df1b39d:::
